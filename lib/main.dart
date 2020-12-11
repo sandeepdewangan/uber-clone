@@ -30,6 +30,10 @@ Future<void> main() async {
     ),
   );
   runApp(MaterialApp(
+    theme: ThemeData(
+      fontFamily: 'Bolt-Regular',
+      primarySwatch: Colors.blue,
+    ),
     title: 'Flutter Database Example',
     home: HomePage(),
   ));
