@@ -6,7 +6,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_database/ui/firebase_animated_list.dart';
 // from project
-import 'pages/home_page.dart';
+import  'pages/login_page.dart';
 
 
 Future<void> main() async {
@@ -35,7 +35,7 @@ Future<void> main() async {
       primarySwatch: Colors.blue,
     ),
     title: 'Flutter Database Example',
-    home: HomePage(),
+    home: LoginPage(),
   ));
 }
 
