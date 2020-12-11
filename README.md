@@ -1,19 +1,16 @@
-# uberclone
+# Uber Clone
 
-A new Flutter application.
+From [Udemy](https://www.udemy.com/course/flutter-uber-clone-app-with-firebase)
 
-## Getting Started
+## Google Fire Store Setup
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-### sa
-# saksjasa slasasa
+1. Create a real time database in fire store.
+2. Enable Email based authentication.
+3. Add app - android app.
+   1. Get the package name from android folder - app/build.gradle
+   2. Follow the remaining process.
+4. Install Packages
+   1. Firebase Core
+   2. Firebase Auth
+   3. Firebase Database
+   4. 
