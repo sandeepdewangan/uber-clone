@@ -29,3 +29,28 @@ onPressed: (){
 ```
 
 Check the database in fire store. The data `Test:IsConnected` is inserted.
+
+
+
+## Assets
+
+1. Create folder assets in the project.
+2. Create folder underneath assets named images and fonts.
+3. Paste all your resources under it.
+4. Go to `pubspec.yaml` and declare your assets.
+
+`pubspec.yaml`
+
+```yaml
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Bolt-Regular
+      fonts:
+        - asset: assets/fonts/bolt-regular.ttf
+    - family: Bolt-Bold
+      fonts:
+        - asset: assets/fonts/bolt-semibold.ttf
+```
+
